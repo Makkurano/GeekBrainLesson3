@@ -23,7 +23,7 @@ public class Lesson32 {
             System.out.println("Загадано слово. Введите вашу версию.");
 
             while (true) {
-                System.out.println(randWord);
+              //  System.out.println(randWord);
                 String scan = sc.next();
                 String scanSmall = scan.toLowerCase(); // Приводим к строчным введенные слова
                 if (randWord.equals(scanSmall)) { // Условие победы
@@ -49,7 +49,7 @@ public class Lesson32 {
                 for (int a = lonWord; a < maxLength; a++) { //Добивание оставшихся символов значками сокрытия
                     System.out.print("#");
                 }
-                System.out.print("\nПопробуйте еще раз");
+                System.out.println("\nПопробуйте еще раз");
             }
         }
     }
